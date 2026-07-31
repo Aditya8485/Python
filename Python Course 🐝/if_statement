@@ -1,0 +1,34 @@
+is_asshole = True
+is_wise = False
+user = "Aditya"
+
+if is_asshole or is_wise :
+    print( "You are a fking mix..")
+else:
+    print("Fuck You B!tch....")
+
+
+if is_asshole and is_wise :
+    print( "You are a fking mix..")
+elif is_asshole and not (is_wise):
+    print("You are false with one...")
+
+else:
+    print("Fuck You B!tch....")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
