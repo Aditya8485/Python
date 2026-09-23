@@ -1,0 +1,14 @@
+''' msg = "saale  kutte "
+
+def say_hi(name, age, msg ) :
+    print("Hello Bhadwe, " +  msg +   name  + " tu " + age+ " saal ka hai...")
+
+say_hi("Adarsh" , "16", msg ) '''
+
+
+
+
+
+
+
+

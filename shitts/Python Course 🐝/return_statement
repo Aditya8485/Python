@@ -1,0 +1,41 @@
+def cube (num) :
+    return (num*num*num)
+
+
+print(cube(4))
+
+
+
+#Lets Create return statement 2
+
+def square (num) :
+    return (num*num)
+
+print(square(4))
+
+
+#Moving to return statement 3
+
+def divide(num) :
+    return(num // num)
+
+
+print(divide(20))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
