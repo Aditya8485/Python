@@ -14,5 +14,5 @@ print(df)
 #print(df.pop('Salary'))  # Remove the 'Salary' column and return it
 
 #Now we are going to fill the missing values 
-
-print(df.fillna(0, inplace=True))  # Fill missing values with 0
+df['Performance'].fillna(df['Performance'].mean(), inplace=True)
+print(df)
