@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 """
 Now we will target 2 coulmns at once
 """
-df.sort_values(by=["Age", "Salary"], ascending=True, inplace=True)
+df.sort_values(by=["Age", "Salary"], ascending=[True, True], inplace=True)
 print("Double Coulmns targetted")
 print(df)
 """
